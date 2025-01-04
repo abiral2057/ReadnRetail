@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout - ReadnRetail</title>
+    <link rel="stylesheet" href="checkout-payment-style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">READNRETAIL</div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Cart</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="checkout-container">
+      <section class="order-summary">
+        <h2>Order Summary</h2>
+        <div class="cart-item">
+          <img src="../../Images/book1.jpg" alt="Simple Way Of Piece Life" />
+          <div class="item-info">
+            <h3>Simple Way Of Piece Life</h3>
+            <p>$40.00</p>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="../../Images/book1.jpg" alt="Great Travel At Desert" />
+          <div class="item-info">
+            <h3>Great Travel At Desert</h3>
+            <p>$38.00</p>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <img src="../../Images/book1.jpg" alt="Your Simple Book Cover" />
+          <div class="item-info">
+            <h3>Your Simple Book Cover</h3>
+            <p>$45.00</p>
+          </div>
+        </div>
+        <hr />
+        <div class="order-total">
+          <p>Subtotal:</p>
+          <p>$134</p>
+        </div>
+        <div class="order-total">
+          <p>Shipping Fees:</p>
+          <p>--</p>
+        </div>
+        <div class="order-total">
+          <p>Taxes:</p>
+          <p>--</p>
+        </div>
+        <div class="order-total total-price">
+          <p>Total (Including Tax):</p>
+          <p>$134</p>
+        </div>
+      </section>
+
+      <section class="payment-info">
+        <h2>Payment Information</h2>
+        <div class="card-selection">
+          <div class="current-card">
+            <h3>Current Credit Card</h3>
+            <div class="card-placeholder">VISA</div>
+          </div>
+          <div class="add-new-card">
+            <h3>Add New Credit Card</h3>
+            <div class="card-placeholder">Add New</div>
+          </div>
+        </div>
+
+        <form class="payment-form">
+          <label for="cardholder-name">Name of Card Holder</label>
+          <input
+            type="text"
+            id="cardholder-name"
+            placeholder="Card Holder Name"
+          />
+
+          <label for="card-number">Credit Card Number</label>
+          <input type="text" id="card-number" placeholder="Card Number" />
+
+          <label for="expiration">Expiration</label>
+          <input type="text" id="expiration" placeholder="MM/YY" />
+
+          <div class="payment-method">
+            <input type="radio" id="paypal" name="payment-method" />
+            <label for="paypal">PayPal</label>
+            <p>
+              You will be redirected to the PayPal website to complete your
+              order securely.
+            </p>
+          </div>
+
+          <div class="payment-buttons">
+            <button class="pay-btn">Payment</button>
+            <button class="cancel-btn">Cancel</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 ReadnRetail. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

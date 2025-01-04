@@ -1,0 +1,164 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+header .search-cart {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .search-cart input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+header .icons a {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Cart Header */
+.cart-header {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.cart-header h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+/* Cart Items */
+.cart-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+.cart-item {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  text-align: center;
+  width: calc(25% - 1rem);
+  box-sizing: border-box;
+}
+
+.cart-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.cart-item .item-info {
+  margin: 1rem 0;
+}
+
+.cart-item .item-info h3 {
+  font-size: 1.2rem;
+  color: #333;
+  margin: 0.5rem 0;
+}
+
+.cart-item .item-info p {
+  font-size: 1rem;
+  color: #007bff;
+}
+
+.checkout-button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.checkout-button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-top: 1px solid #ddd;
+}
+
+footer .footer-section {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  color: #007bff;
+  margin-bottom: 0.5rem;
+}
+
+footer p,
+footer ul {
+  color: #666;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #007bff;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+footer .social a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 1rem;
+}

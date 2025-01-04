@@ -1,0 +1,25 @@
+.book button {
+  bottom: auto;
+  position: absolute;
+ width:30px;
+ height: auto;
+  background-color:#046174;
+  color: #fff;
+  border: none;
+  height: auto;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.shop-header{
+  display: grid;
+  grid-template-columns: auto  auto;
+  
+}
+.sort-button{
+  justify-content: center;
+  text-align: end;
+  font-size: 20px;
+
+  border-radius: 50px;
+ 
+}

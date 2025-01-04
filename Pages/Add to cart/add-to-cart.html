@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Popup</title>
+    <link rel="stylesheet" href="add-to-cart-style.css" />
+  </head>
+  <body>
+    <div class="modal-overlay" id="cart-modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>My Cart</h2>
+          <button class="close-modal">&times;</button>
+        </div>
+        <div class="modal-content">
+          <div class="cart-item">
+            <img src="../../Images/book1.jpg" alt="The Lady Beauty Scarlett" />
+            <div class="item-info">
+              <h3>The Lady Beauty Scarlett</h3>
+              <p>$68.00</p>
+              <input type="number" value="1" min="1" />
+              <button class="remove-item">Remove</button>
+            </div>
+          </div>
+          <div class="cart-summary">
+            <p>Order: <span>$68</span></p>
+            <p>Delivery: <span>$6</span></p>
+            <p>Total: <span>$74</span></p>
+          </div>
+          <div class="cart-footer">
+            <select class="shipping-address">
+              <option value="Kathmandu, Balaju">Kathmandu, Balaju</option>
+              <option value="Other City">Other City</option>
+            </select>
+            <button class="checkout-button">Check Out</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
